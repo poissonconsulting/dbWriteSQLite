@@ -4,7 +4,7 @@
 \alias{rws_export_gpkg}
 \title{Export all spatial datasets in a database as geopackages.}
 \usage{
-rws_export_gpkg(conn, dir, overwrite = FALSE)
+rws_export_gpkg(conn, dir = ".", overwrite = FALSE)
 }
 \arguments{
 \item{conn}{A \linkS4class{SQLiteConnection} to a database.}
